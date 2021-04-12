@@ -51,3 +51,5 @@ phpcs.xml
 dist/
 dist-product/
 **/img
+
+wp-config.php
