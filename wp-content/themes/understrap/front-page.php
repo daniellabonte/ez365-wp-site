@@ -164,7 +164,11 @@ get_header();
 					<div class="col-md-4 mb-4">
 						<div class="card">
 							<a href="<?php echo get_the_guid() ?>" style="text-decoration: none;" class="text-dark">
-								<img class="card-img-top" src="/wp-content/uploads/assets/Logo.png" alt="Card image cap">
+								<?php if (has_post_thumbnail()) { ?>
+									<img class="card-img-top" src="<?php echo the_post_thumbnail_url() ?>" alt="Card image cap">
+								<?php } else { ?>
+									<img class="card-img-top" src="/wp-content/uploads/assets/Logo.png" alt="Card image cap">
+								<?php } ?>
 							</a>
 							<div class="card-body bg-light d-flex flex-column align-items-center">
 								<h4 class="card-title text-center"><?php echo get_the_title() ?></h4>
@@ -172,7 +176,7 @@ get_header();
 							</div>
 						</div>
 					</div>
-				<?php
+			<?php
 				}
 			}
 			?>
