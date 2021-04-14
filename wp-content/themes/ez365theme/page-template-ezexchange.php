@@ -152,7 +152,7 @@
     <div class="col-sm-12 col-md-6 px-3">
       <p>EZ Exchange is built by developers entrusted with protecting global stock markets, bringing the rigor of established financial market security to cryptocurrency. That includes protecting our environment with server redundancy, fault tolerance and high availability systems, extensive hacker testing, and Know Your Customer (KYC)/ Anti-Money Laundering (AML) compliance.</p>
     </div>
-    <div class="col-sm-12 col-md-6 text-uppercase px-3">
+    <div class="col-sm-12 col-md-6 px-3">
       <p><b>We’re taking security one step further by:</b></p>
       <ul>
         <li class="mb-2" style="font-weight: 100;">95% of coins will be held offline in cold storage</li>
