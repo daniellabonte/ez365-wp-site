@@ -59,23 +59,4 @@
   </div>
 </div>
 
-<div class="mt-5 bg-info">
-  <div class="container p-5">
-    <div class="row">
-      <div class="col-md-12 text-lg-left text-center align-self-center d-flex flex-column justify-content-center align-items-center my-0">
-        <p class="text-center">Don’t be left in the dark. Sign up for our newsletter today!</p>
-        <form class="form-inline w-100" style="max-width: 450px">
-          <div class="input-group w-100">
-            <input type="text" class="form-control py-3 rounded-0" placeholder="Email Address">
-            <div class="input-group-append">
-              <button class="btn btn-dark py-2 px-3 text-uppercase rounded-0" type="button">Subscribe Now</button>
-            </div>
-          </div>
-          <small class="form-text text-muted mt-3 text-center" style="font-size: 12;"> By subscribing to our newsletter, you agree to receive marketing emails from EZ365. </small>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
 <?php get_footer(); ?>
