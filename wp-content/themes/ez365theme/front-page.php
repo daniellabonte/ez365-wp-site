@@ -83,7 +83,7 @@
       </div>
     </div>
     <div class="row"4
-      <3iv class="col-md-12"><img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/the_ez365_platform.png"></3iv>
+      <div class="col-md-12"><img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/the_ez365_platform.png"></div>
     </div>
   </div>
 </div>

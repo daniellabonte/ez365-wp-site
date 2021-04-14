@@ -1,9 +1,7 @@
 <?php
 
 /**
- * Template Name: EZ Win
- *
- * @package UnderStrap
+ * Template Name: EZ Academy
  */
 ?>
 <?php get_header(); ?>

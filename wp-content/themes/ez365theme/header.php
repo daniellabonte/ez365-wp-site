@@ -19,7 +19,7 @@
 <body>
   <!-- Navbar -->
   <header>
-    <nav <?php if ($hero['show_hero']) echo 'id="fadenavbar"' ?> class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark <?php if ($hero['show_hero']) echo 'navbar-ontop' ?>">
+    <nav <?php if ($hero['show_hero']) echo 'id="fadenavbar"' ?> class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary <?php if ($hero['show_hero']) echo 'navbar-ontop' ?>">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img src="<?php bloginfo('template_directory') ?>/images/EZ365_logo_TM_white.png" class="d-inline-block align-top" alt="">
@@ -51,4 +51,4 @@
         </div>
       </div>
   </header>
-<?php echo var_dump($hero); } ?>
+<?php } ?>
