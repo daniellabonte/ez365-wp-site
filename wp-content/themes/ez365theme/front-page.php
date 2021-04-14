@@ -57,19 +57,19 @@
       <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Play.</b></h4>
         <p class="mb-3 text-uppercase"><b>A provably fair, effortless way to play and bet with cryptocurrency.</b></p>
-        <p class="mb-3 text-md-left" style="">A casino you can trust because you can see the outcome of every play. EZ Win attracts a community with top casino games, plus betting for sports and e-sports. Customers can play a stable coin pegged to the US dollar.</p>
+        <p class="mb-3 text-md-left">A casino you can trust because you can see the outcome of every play. EZ Win attracts a community with top casino games, plus betting for sports and e-sports. Customers can play a stable coin pegged to the US dollar.</p>
         <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">Learn More</a>
       </div>
       <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Trade.</b></h4>
         <p class="mb-3 text-uppercase"><b>Enabling new and expert users to invest in NFTs and cryptocurrency.</b></p>
-        <p class="mb-3 text-md-left" style="">An exchange platform dedicated to new and expert traders. EZ Exchange is intuitive, fully supported and fiat-enabled. Trade digital assets such as non-fungible tokens (NFTs) and cryptocurrency with the click of a button.</p>
+        <p class="mb-3 text-md-left">An exchange platform dedicated to new and expert traders. EZ Exchange is intuitive, fully supported and fiat-enabled. Trade digital assets such as non-fungible tokens (NFTs) and cryptocurrency with the click of a button.</p>
         <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">Learn More</a>
       </div>
       <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Learn.</b></h4>
         <p class="mb-3 text-uppercase"><b>helping the world embrace blockchain.</b></p>
-        <p class="mb-3 text-md-left" style="">An all-in-one educational portal that helps users take their blockchain knowledge to the next level. EZ Academy offers instruction and insight on a wide range of topics throughout the blockchain and digital asset universe.</p>
+        <p class="mb-3 text-md-left">An all-in-one educational portal that helps users take their blockchain knowledge to the next level. EZ Academy offers instruction and insight on a wide range of topics throughout the blockchain and digital asset universe.</p>
         <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">Learn More</a>
       </div>
     </div>
@@ -252,7 +252,7 @@
   <div class="container p-5">
     <div class="row">
       <div class="col-md-12 text-lg-left text-center align-self-center d-flex flex-column justify-content-center align-items-center my-0">
-        <p class="text-center" style="">Don’t be left in the dark. Sign up for our newsletter today!</p>
+        <p class="text-center">Don’t be left in the dark. Sign up for our newsletter today!</p>
         <form class="form-inline w-100" style="max-width: 450px">
           <div class="input-group w-100">
             <input type="text" class="form-control py-3 rounded-0" placeholder="Email Address">

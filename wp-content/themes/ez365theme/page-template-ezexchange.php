@@ -210,7 +210,7 @@
   <div class="container p-5">
     <div class="row">
       <div class="col-md-12 text-lg-left text-center align-self-center d-flex flex-column justify-content-center align-items-center my-0">
-        <p class="text-center" style="">Don’t be left in the dark. Sign up for our newsletter today!</p>
+        <p class="text-center">Don’t be left in the dark. Sign up for our newsletter today!</p>
         <form class="form-inline w-100" style="max-width: 450px">
           <div class="input-group w-100">
             <input type="text" class="form-control py-3 rounded-0" placeholder="Email Address">
