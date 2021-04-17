@@ -41,7 +41,7 @@
   <div class="container py-1">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="mb-0 text-white stretch text-uppercase">Facilitating the Mass Adoption of Cryptocurrency.</h2>
+        <h2 class="mb-0 text-white stretch text-uppercase">Facilitating the Mass Adoption of Digital Assets.</h2>
       </div>
     </div>
   </div>

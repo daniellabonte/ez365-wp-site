@@ -34,7 +34,7 @@
             'menu_class' => ' top-menu navbar-nav uppercase text-uppercase'
           ));
           ?>
-          <a class="btn navbar-btn text-white mx-2 rounded-0 border-light border text-uppercase py-2 px-3" href="#https://ezexchangehelp.zendesk.com/hc/en-us/requests/new" contenteditable="true"> Contact Us </a>
+          <a class="btn navbar-btn text-white mx-2 rounded-0 border-light border text-uppercase py-2 px-3" href="https://ezexchangehelp.zendesk.com/hc/en-us/requests/new"> Contact Us </a>
         </div>
       </div>
     </nav>
@@ -45,7 +45,7 @@
           <div class="row text-white">
             <div class="col-md-12 my-5 text-lg-left text-center align-self-center d-flex flex-column<?php if ($hero['title_first']) echo '-reverse' ?> justify-content-center align-items-center">
               <span class="lead text-uppercase"><?php echo $hero['subtitle']; ?></span>
-              <h1 class="display-2" style="font-weight: 400"><?php echo $hero['title']; ?></h1>
+              <h1 class="display-2 text-center" style="font-weight: 400"><?php echo $hero['title']; ?></h1>
             </div>
           </div>
         </div>
