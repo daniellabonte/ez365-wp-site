@@ -48,9 +48,9 @@
 </div>
 <div class="my-5" id="features">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p class="pb-4 mx-5 px-5" contenteditable="true">EZ365 is a digital ecosystem that combines the best aspects of NFTs, online gaming, digital asset trading and blockchain education. The EZ365 experience is simple, user friendly and fun, so you can easily play, trade and learn with digital assets. </p>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p class="">EZ365 is a digital ecosystem that combines the best aspects of NFTs, online gaming, digital asset trading and blockchain education. The EZ365 experience is simple, user friendly and fun, so you can easily play, trade and learn with digital assets. </p>
       </div>
     </div>
     <div class="row">
@@ -58,19 +58,19 @@
         <h4 class="mb-3 text-dark"><b>Play.</b></h4>
         <p class="mb-3 text-uppercase"><b>A provably fair, effortless way to play and bet with cryptocurrency.</b></p>
         <p class="mb-3 text-md-left">A casino you can trust because you can see the outcome of every play. EZ Win attracts a community with top casino games, plus betting for sports and e-sports. Customers can play a stable coin pegged to the US dollar.</p>
-        <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">Learn More</a>
+        <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="/ez-win">Learn More</a>
       </div>
       <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Trade.</b></h4>
         <p class="mb-3 text-uppercase"><b>Enabling new and expert users to invest in NFTs and cryptocurrency.</b></p>
         <p class="mb-3 text-md-left">An exchange platform dedicated to new and expert traders. EZ Exchange is intuitive, fully supported and fiat-enabled. Trade digital assets such as non-fungible tokens (NFTs) and cryptocurrency with the click of a button.</p>
-        <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">Learn More</a>
+        <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="https://ezexchange.com">Learn More</a>
       </div>
       <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Learn.</b></h4>
         <p class="mb-3 text-uppercase"><b>helping the world embrace blockchain.</b></p>
         <p class="mb-3 text-md-left">An all-in-one educational portal that helps users take their blockchain knowledge to the next level. EZ Academy offers instruction and insight on a wide range of topics throughout the blockchain and digital asset universe.</p>
-        <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">Learn More</a>
+        <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="/ez-academy">Learn More</a>
       </div>
     </div>
   </div>
@@ -99,9 +99,9 @@
 </div>
 <div class="my-5" id="features">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p class="p-0 mx-5">EZ365 brings the rigor of established technology and financial market security to our digital asset platforms. From server redundancy Blockchain optimization, fault tolerance and high availability systems, to Know Your Customer (KYC)/ Anti-Money Laundering (AML) compliance, EZ365 has the expertise and experience to enable users to play, trade and learn safely and securely.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p class="">EZ365 brings the rigor of established technology and financial market security to our digital asset platforms. From server redundancy Blockchain optimization, fault tolerance and high availability systems, to Know Your Customer (KYC)/ Anti-Money Laundering (AML) compliance, EZ365 has the expertise and experience to enable users to play, trade and learn safely and securely.</p>
       </div>
     </div>
   </div>
@@ -116,44 +116,28 @@
     </div>
   </div>
 </div>
+
 <div class="my-5" id="features">
   <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <a href="#" style="text-decoration: none;" class="text-dark">
-        </a>
-        <div class="card">
-          <a href="#" style="text-decoration: none;" class="text-dark">
-            <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
-          </a>
-          <div class="card-body bg-light d-flex flex-column align-items-center">
-            <a href="#" style="text-decoration: none;" class="text-dark">
-              <h4 class="card-title text-center">EZ365 Update: March 2020</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </a><a class="btn btn-link" href="#">Read more -&gt;</a>
+    <div class="row justify-content-center">
+      <?php
+      $args = array('numberposts' => 3, 'post_status' => 'publish', 'category' => 'news');
+      $recent_posts = wp_get_recent_posts($args);
+      foreach ($recent_posts as $recent) { ?>
+        <div class="col-md-4">
+          <div class="card">
+            <a href="<?php echo get_permalink($recent["ID"]); ?>" style="text-decoration: none;" class="text-dark">
+              <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
+            </a>
+            <div class="card-body bg-light d-flex flex-column align-items-center">
+              <a href="#" style="text-decoration: none;" class="text-dark">
+                <h4 class="card-title text-center"><?php echo $recent["post_title"]; ?></h4>
+                <p class="card-text"><?php echo $recent["post_excerpt"]; ?></p>
+              </a><a class="btn btn-link" href="<?php echo get_permalink($recent["ID"]); ?>">Read more <i class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
-          <div class="card-body bg-light d-flex flex-column align-items-center">
-            <h4 class="card-title text-center">EZ365 Update: March 2020</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="btn btn-link" href="#">Read more -&gt;</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
-          <div class="card-body bg-light d-flex flex-column align-items-center">
-            <h4 class="card-title text-center">EZ365 Update: March 2020</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="btn btn-link" href="#">Read more -&gt;</a>
-          </div>
-        </div>
-      </div>
+      <?php } ?>
     </div>
     <div class="row">
       <div class="my-3 col-md-12 d-flex flex-column align-items-center">
@@ -162,6 +146,7 @@
     </div>
   </div>
 </div>
+
 <div class="my-5">
   <div class="container">
     <div class="row">

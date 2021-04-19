@@ -7,9 +7,9 @@
 <?php get_header(); ?>
 <div class="my-5" id="features">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p class="p-0 mx-5">EZ365 brings the rigor of established technology and financial market security to our digital asset platforms. From server redundancy Blockchain optimization, fault tolerance and high availability systems, to Know Your Customer (KYC)/ Anti-Money Laundering (AML) compliance, EZ365 has the expertise and experience to enable users to play, trade and learn safely and securely.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p class="">Our vision is to revolutionize the digital asset space. EZ NFTs offers new and expert traders an opportunity to participate in the non-fungible tokens (NFTs) space in a number of revolutionary ways.</p>
       </div>
     </div>
   </div>

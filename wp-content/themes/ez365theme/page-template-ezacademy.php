@@ -6,8 +6,8 @@
 ?>
 <?php get_header(); ?>
 <div class="container my-5" id="features">
-  <div class="row">
-    <div class="col col-md-8 px-3 text-center mx-auto">
+  <div class="row justify-content-center">
+    <div class="col-md-8 text-center">
       <p>Our vision is to make cryptocurrency easy for beginners and advanced users. The platform offers trading strategies to technical instruction on leading edge blockchain innovation. EZ Academy is a robust portal that supports and empowers the wider cryptocurrency community.</p>
     </div>
   </div>
