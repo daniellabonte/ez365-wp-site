@@ -5,8 +5,8 @@
     <div class="row">
       <div class="col-md-12">
         <h3 class="mb-3"><b>Learn how EZ365 is changing the digital asset landscape</b></h3>
-        <div class="embed-responsive embed-responsive-16by9 px-5">
-          <iframe src="https://www.youtube.com/embed/bStX0I5PWmQ?controls=0" allowfullscreen="" class="embed-responsive-item"></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.youtube.com/embed/LBGJUDF5Ca0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -54,19 +54,19 @@
       </div>
     </div>
     <div class="row">
-      <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
+      <div class="text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Play.</b></h4>
         <p class="mb-3 text-uppercase"><b>A provably fair, effortless way to play and bet with cryptocurrency.</b></p>
         <p class="mb-3 text-md-left">A casino you can trust because you can see the outcome of every play. EZ Win attracts a community with top casino games, plus betting for sports and e-sports. Customers can play a stable coin pegged to the US dollar.</p>
         <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="/ez-win">Learn More</a>
       </div>
-      <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
+      <div class="text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Trade.</b></h4>
         <p class="mb-3 text-uppercase"><b>Enabling new and expert users to invest in NFTs and cryptocurrency.</b></p>
         <p class="mb-3 text-md-left">An exchange platform dedicated to new and expert traders. EZ Exchange is intuitive, fully supported and fiat-enabled. Trade digital assets such as non-fungible tokens (NFTs) and cryptocurrency with the click of a button.</p>
         <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="https://ezexchange.com">Learn More</a>
       </div>
-      <div class="align-self-center text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
+      <div class="text-center col-lg-4 col-md-4 d-flex flex-column align-items-center px-3 my-4">
         <h4 class="mb-3 text-dark"><b>Learn.</b></h4>
         <p class="mb-3 text-uppercase"><b>helping the world embrace blockchain.</b></p>
         <p class="mb-3 text-md-left">An all-in-one educational portal that helps users take their blockchain knowledge to the next level. EZ Academy offers instruction and insight on a wide range of topics throughout the blockchain and digital asset universe.</p>
@@ -92,7 +92,7 @@
   <div class="container py-1">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="display-5 mb-0 text-white stretch text-uppercase">Built by Professionals Who Protect the World’s Stock Markets.</h2>
+        <h2 class="display-5 mb-0 text-white stretch text-uppercase">Built by the Professionals Who Create and Protect the World's Leading Technology Platforms.</h2>
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <?php
-      $args = array('numberposts' => 3, 'post_status' => 'publish', 'category' => 'news');
+      $args = array('numberposts' => 3, 'post_status' => 'publish', 'category' => 'featured');
       $recent_posts = wp_get_recent_posts($args);
       foreach ($recent_posts as $recent) { ?>
         <div class="col-md-4">

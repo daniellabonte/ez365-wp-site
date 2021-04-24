@@ -47,7 +47,7 @@
       </div>
       <div class="row mt-1">
         <div class="col-md-12 text-center">
-          <p class="text-muted">© Copyright EZ365 Limited 2019. All rights reserved.</p>
+          <p class="text-muted">© Copyright EZ365 <?php echo date("Y"); ?>. All rights reserved.</p>
         </div>
       </div>
     </div>

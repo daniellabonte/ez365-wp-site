@@ -10,7 +10,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <?php
-      $args = array('numberposts' => 3, 'post_status' => 'publish', 'category' => 'news');
+      $args = array('numberposts' => 3, 'post_status' => 'publish', 'category' => 'featured');
       $recent_posts = wp_get_recent_posts($args);
       foreach ($recent_posts as $recent) { ?>
         <div class="col-md-4">
