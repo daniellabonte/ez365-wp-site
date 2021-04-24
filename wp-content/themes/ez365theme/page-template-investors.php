@@ -28,11 +28,11 @@
         </div>
       <?php } ?>
     </div>
-    <div class="row">
-      <div class="my-3 col-md-12 d-flex flex-column align-items-center">
-        <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">More EZ365 News</a>
-      </div>
-    </div>
+    <!-- <div class="row"> -->
+      <!-- <div class="my-3 col-md-12 d-flex flex-column align-items-center"> -->
+        <!-- <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">More EZ365 News</a> -->
+      <!-- </div> -->
+    <!-- </div> -->
   </div>
 </div>
 
