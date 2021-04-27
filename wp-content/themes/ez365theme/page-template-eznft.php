@@ -5,7 +5,7 @@
  */
 ?>
 <?php get_header(); ?>
-<div class="my-5" id="features">
+<div class="my-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8 text-center">
@@ -68,10 +68,17 @@
       </div>
 
       <div class="row my-5 justify-content-center">
-        <a href="#" class="btn btn-light mb-0 px-5 py-2 text-dark stretch text-uppercase">Sign Up</a>
+        <form class="form-inline w-100 justify-content-center mx-2" style="max-width: 450px" method="post" action="/?na=s">
+              <input type="email" class="form-control py-3 px-1 mb-2 rounded-0 w-100" placeholder="Email" name="ne" required>
+              <input type="hidden" name="nl[]" value="2">
+              <div class="input-group-append">
+                <button class="btn btn-light mb-0 px-5 py-2 text-dark stretch text-uppercase" type="submit">Sign Up</button>
+              </div>
+          </form>
       </div>
 
     </div>
   </div>
 </div>
+
 <?php get_footer(); ?>

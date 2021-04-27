@@ -23,10 +23,11 @@
     <div class="row">
       <div class="col-md-12 d-flex flex-column align-items-center">
         <h3 class=""><b>Be in the know.</b></h3>
-        <form class="d-flex flex-column align-items-center">
+        <form class="d-flex flex-column align-items-center" method="post" action="/?na=s">
           <div class="form-group">
             <label class="mb-0">Email *</label>
-            <input type="email" class="form-control rounded-0" placeholder="Email Address">
+            <input type="email" class="form-control rounded-0" placeholder="Email" name="ne" required>
+            <input type="hidden" name="nl[]" value="1">
             <small class="form-text text-muted">*By signing up, you agree to receive updates and marketing emails from EZ365.</small>
           </div>
           <button type="submit" class="btn text-uppercase btn-primary text-light rounded-0 py-2 px-3">Sign Up Now</button>
@@ -46,7 +47,7 @@
     </div>
   </div>
 </div>
-<div class="my-5" id="features">
+<div class="my-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8 text-center">
@@ -75,17 +76,16 @@
     </div>
   </div>
 </div>
-<div class="my-5" id="features">
+<div class="my-5">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
         <h3 class="">The EZ365 Platform</h3>
       </div>
     </div>
-    <div class="row"4
-      <div class="col-md-12"><img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/the_ez365_platform.png"></div>
-    </div>
+    <div class="row" 4 <div class="col-md-12"><img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/the_ez365_platform.png"></div>
   </div>
+</div>
 </div>
 <!-- Section 2 -->
 <div class="py-5 text-center section-dark" style="background-image: url(<?php bloginfo('template_directory') ?>/images/stock-graph.jpg);">
@@ -97,7 +97,7 @@
     </div>
   </div>
 </div>
-<div class="my-5" id="features">
+<div class="my-5">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8 text-center">
@@ -117,35 +117,41 @@
   </div>
 </div>
 
-<div class="my-5" id="features">
-  <div class="container">
-    <div class="row justify-content-center">
-      <?php
-      $args = array('numberposts' => 3, 'post_status' => 'publish', 'category' => 'featured');
-      $recent_posts = wp_get_recent_posts($args);
-      foreach ($recent_posts as $recent) { ?>
-        <div class="col-md-4">
-          <div class="card">
-            <a href="<?php echo get_permalink($recent["ID"]); ?>" style="text-decoration: none;" class="text-dark">
-              <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
-            </a>
-            <div class="card-body bg-light d-flex flex-column align-items-center">
-              <a href="#" style="text-decoration: none;" class="text-dark">
-                <h4 class="card-title text-center"><?php echo $recent["post_title"]; ?></h4>
-                <p class="card-text"><?php echo $recent["post_excerpt"]; ?></p>
-              </a><a class="btn btn-link" href="<?php echo get_permalink($recent["ID"]); ?>">Read more <i class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i></a>
+<?php
+$args = array(
+  'numberposts' => 3,
+  'post_status' => 'publish',
+  'category_name' => 'featured'
+);
+$query = new WP_Query($args);
+if ($query->have_posts()) { ?>
+  <div class="my-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <?php
+        while ($query->have_posts()) {
+          $query->the_post(); ?>
+          <div class="col-md-4">
+            <div class="card">
+              <a href="<?php the_ID(); ?>" style="text-decoration: none;" class="text-dark">
+                <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
+              </a>
+              <div class="card-body bg-light d-flex flex-column align-items-center">
+                <a href="#" style="text-decoration: none;" class="text-dark">
+                  <h4 class="card-title text-center"><?php the_title(); ?></h4>
+                  <?php if (has_excerpt()) { ?><p class="card-text"><?php the_excerpt(); ?></p><?php } ?>
+                </a>
+                <a class="btn btn-link" href="<?php the_ID(); ?>">Read more <i class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
-        </div>
-      <?php } ?>
+        <?php  }
+        wp_reset_postdata(); ?>
+      </div>
     </div>
-    <!-- <div class="row"> -->
-      <!-- <div class="my-3 col-md-12 d-flex flex-column align-items-center"> -->
-        <!-- <a class="btn btn-outline-dark rounded-0 text-uppercase py-2 px-3" href="#">More EZ365 News</a> -->
-      <!-- </div> -->
-    <!-- </div> -->
-  </div>
-</div>
+  </div><?php
+}
+?>
 
 <div class="my-5">
   <div class="container">
@@ -158,11 +164,6 @@
       <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
         <a href="https://venturebeat.com/2019/08/08/ez365-reveals-blockchain-for-digital-asset-trading-gambling-esports-betting-and-education/">
           <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/Venture_Beat.png">
-        </a>
-      </div>
-      <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
-        <a href="https://blocktribune.com/crypto-exchange-and-online-casino-ez365-adds-key-industry-leaders-to-its-team/">
-          <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/BlockTribune.png">
         </a>
       </div>
       <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
@@ -186,11 +187,6 @@
         </a>
       </div>
       <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
-        <a href="https://www.pcnewsbuzz.com/2019/08/08/ez365-reveals-blockchain-for-digital-asset-trading-gambling-esports-betting-and-education/">
-          <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/PCNewsBuzz.png">
-        </a>
-      </div>
-      <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
         <a href="https://www.pymnts.com/blockchain/bitcoin/2019/australia-police-charge-five-crypto-cold-calling-scam-ez365-launch-blockchain-ecosystem-trading-betting/">
           <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/Pymnts.png">
         </a>
@@ -198,16 +194,6 @@
       <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
         <a href="https://www.securities.io/ez365-play-trade-learn/">
           <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/Securities.png">
-        </a>
-      </div>
-      <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
-        <a href="https://it.toolbox.com/blogs/shrutiumathe/ez365-to-launch-worlds-first-blockchain-ecosystem-combining-digital-asset-trading-igaming-and-blockchain-education-080919">
-          <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/Toolbox_Tech.png">
-        </a>
-      </div>
-      <div class="col-6 col-lg-4 col-xl-3 d-flex justify-content-center">
-        <a href="https://www.wiredfocus.com/ez365-reveals-blockchain-for-digital-asset-trading-gambling-esports-betting-and-education/">
-          <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/Wired_Focus.png">
         </a>
       </div>
     </div>

@@ -33,7 +33,7 @@
     </div>
   </div>
 </div>
-<div class="container my-5" id="features">
+<div class="container my-5">
   <div class="row">
     <div class="col-sm-12 col-md-6 px-3">
       <p class="text-uppercase"><b>Problems with Cryptocurrency Exchanges Today</b></p>
@@ -147,7 +147,7 @@
     </div>
   </div>
 </div>
-<div class="container my-5" id="features">
+<div class="container my-5">
   <div class="row">
     <div class="col-sm-12 col-md-6 px-3">
       <p>EZ Exchange is built by developers entrusted with protecting global stock markets, bringing the rigor of established financial market security to cryptocurrency. That includes protecting our environment with server redundancy, fault tolerance and high availability systems, extensive hacker testing, and Know Your Customer (KYC)/ Anti-Money Laundering (AML) compliance.</p>
@@ -179,7 +179,7 @@
     </div>
   </div>
 </div>
-<div class="container my-5" id="features">
+<div class="container my-5">
   <div class="row">
     <div class="col-sm-12 px-3">
       <p>EZ Exchange presents the world’s first fully integrated, digital asset mining, allowing users to mine rewards, and have the digital assets deposited directly into their exchange wallet - making them instantly available for liquidation.</p>
@@ -197,7 +197,7 @@
     </div>
   </div>
 </div>
-<div class="container my-5" id="features">
+<div class="container my-5">
   <div class="row">
     <div class="col-sm-12 px-3">
       <p>Leveraging EZ Exchange’s relationships with international banking partners along with seamless integration with fiat, our payment gateway allows any company to provide their customers with a quick and easy way into the world of digital assets. </p>

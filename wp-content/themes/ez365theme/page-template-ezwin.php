@@ -5,7 +5,7 @@
  */
 ?>
 <?php get_header(); ?>
-<div class="container my-5" id="features">
+<div class="container my-5">
   <div class="row">
     <div class="col-sm-12 col-md-6 px-3">
       <p><b>Problems with digital asset casino and betting sites today</b></p>
