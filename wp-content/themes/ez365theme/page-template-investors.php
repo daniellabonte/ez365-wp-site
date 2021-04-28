@@ -22,7 +22,7 @@ if ($query->have_posts()) { ?>
           $query->the_post(); ?>
           <div class="col-md-4">
             <div class="card">
-              <a href="<?php the_ID(); ?>" style="text-decoration: none;" class="text-dark">
+              <a href="<?php the_guid(); ?>" style="text-decoration: none;" class="text-dark">
                 <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
               </a>
               <div class="card-body bg-light d-flex flex-column align-items-center">
@@ -30,7 +30,7 @@ if ($query->have_posts()) { ?>
                   <h4 class="card-title text-center"><?php the_title(); ?></h4>
                   <?php if (has_excerpt()) { ?><p class="card-text"><?php the_excerpt(); ?></p><?php } ?>
                 </a>
-                <a class="btn btn-link" href="<?php the_ID(); ?>">Read more <i class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i></a>
+                <a class="btn btn-link" href="<?php the_guid(); ?>">Read more <i class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -39,8 +39,19 @@ if ($query->have_posts()) { ?>
       </div>
     </div>
   </div><?php
-}
-?>
+      }
+        ?>
+
+<div class="container">
+  <div class="row my-5">
+    <div class="col-md-12 d-flex flex-column align-items-center text-center">
+      <h3 class=""><b>Stock Information</b></h3>
+      <div class="row">
+        <a href="https://finance.yahoo.com/quote/WCIG" target="_blank">Wee-Cig International Corporation (WCIG)</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- <div class="py-5 text-center section-dark" style="background-image: url(< ?php bloginfo('template_directory') ? >/images/pattern-3232784_1920b.jpg);">
   <div class="container py-1">

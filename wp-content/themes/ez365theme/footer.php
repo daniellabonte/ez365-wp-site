@@ -11,7 +11,7 @@
           <p class="text-center">Don’t be left in the dark. Sign up for our newsletter today!</p>
           <form class="form-inline w-100" style="max-width: 450px" method="post" action="/?na=s">
             <div class="input-group w-100">
-              <input type="email" class="form-control py-3 rounded-0" placeholder="Email" name="ne" required>
+              <input type="email" class="form-control py-3 rounded-0" placeholder="Email" name="ne" required style="min-width: 230px">
               <input type="hidden" name="nl[]" value="1">
               <div class="input-group-append">
                 <button class="btn btn-dark py-2 px-3 text-uppercase rounded-0" type="submit">Subscribe Now</button>

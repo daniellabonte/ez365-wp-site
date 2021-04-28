@@ -435,7 +435,7 @@ h6,
   font-weight: 300;
 }
 
-.display-1 {
+/* .display-1 {
   font-size: 6rem;
   font-weight: 300;
   line-height: 1.2;
@@ -457,6 +457,114 @@ h6,
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+} */
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  .display-1 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-2 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-3 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .display-1 {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-4 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
 }
 
 hr {
@@ -3795,7 +3903,7 @@ input[type='button'].btn-block {
   list-style: none;
 }
 
-.nav-link, 
+.nav-link,
 .menu-item > a {
   display: block;
   padding: 0.5rem 1rem;
@@ -3803,8 +3911,7 @@ input[type='button'].btn-block {
 .nav-link:hover,
 .nav-link:focus,
 .menu-item > a:hover,
-.menu-item > a:focus
- {
+.menu-item > a:focus {
   text-decoration: none;
 }
 .nav-link.disabled,
@@ -3826,7 +3933,7 @@ input[type='button'].btn-block {
 }
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus,
-  .nav-tabs .menu-item > a:hover,
+.nav-tabs .menu-item > a:hover,
 .nav-tabs .menu-item > a:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
 }
@@ -3838,8 +3945,8 @@ input[type='button'].btn-block {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .menu-item.show .nav-link,
-  .nav-tabs .menu-item > a.active,
-  .nav-tabs .menu-item.show .menu-item > a {
+.nav-tabs .menu-item > a.active,
+.nav-tabs .menu-item.show .menu-item > a {
   color: #495057;
   background-color: #ffffff;
   border-color: #dee2e6 #dee2e6 #ffffff;
@@ -3883,11 +3990,9 @@ input[type='button'].btn-block {
 }
 
 .top-menu > li {
-
 }
 
 .top-menu > li > a {
-
 }
 
 .navbar {
@@ -4169,8 +4274,8 @@ input[type='button'].btn-block {
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus,
-  .navbar-light .navbar-nav .menu-item > a:hover,
-  .navbar-light .navbar-nav .menu-item > a:focus {
+.navbar-light .navbar-nav .menu-item > a:hover,
+.navbar-light .navbar-nav .menu-item > a:focus {
   color: rgba(0, 0, 0, 0.7);
 }
 .navbar-light .navbar-nav .nav-link.disabled,
@@ -4219,7 +4324,7 @@ input[type='button'].btn-block {
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .menu-item > a {
-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus,
@@ -4229,7 +4334,7 @@ color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-nav .nav-link.disabled,
 .navbar-dark .navbar-nav .menu-item > a.disabled {
-color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.25);
 }
 
 .navbar-dark .navbar-nav .show > .nav-link,
@@ -8992,8 +9097,7 @@ body > * {
 .page-item,
 .btn,
 .nav-link,
-.menu-item > a
-.nav-link .active,
+.menu-item > a .nav-link .active,
 .menu-item > a .active,
 .menu-item,
 .dropdown-menu,
@@ -9028,9 +9132,8 @@ body > * {
 #menu-footer-links li:not(:last-child):after {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
-  content: "|";
+  content: '|';
 }
-
 
 #menu-social-media-icons a {
   text-decoration: none;

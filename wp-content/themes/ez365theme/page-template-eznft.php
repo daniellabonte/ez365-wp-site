@@ -24,7 +24,7 @@
         </div>
       </div>
 
-      <div class="row px-4 p-2 my-5" style="border: solid white 2px; background-color: #00000066">
+      <div class="row px-4 p-2 my-5 mx-1" style="border: solid white 2px; background-color: #00000066">
         <div class="col-md-4 my-4">
           <p class=" mb-0 text-white"><b>Leverage EZ Exchange</b> to buy Ethereum with a credit card quickly and easily participate in the NFT market</p>
         </div>
@@ -52,7 +52,7 @@
         </div>
       </div>
 
-      <div class="row px-4 p-2 my-5" style="border: solid white 2px; background-color: #00000066">
+      <div class="row px-4 p-2 my-5 mx-1" style="border: solid white 2px; background-color: #00000066">
         <div class="col-md-6 my-4">
           <p class=" mb-0 text-white">A highly differentiated offering in the NFT space, our auctions will make incredible, curated art accessible to collectors and investors who want to participate in the exponential growth of the NFT market, without sacrificing the joy of owning a cherished physical art piece.</p>
         </div>
