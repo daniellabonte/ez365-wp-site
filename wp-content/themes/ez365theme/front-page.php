@@ -137,7 +137,7 @@ if ($query->have_posts()) { ?>
                 <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
               </a>
               <div class="card-body bg-light d-flex flex-column align-items-center">
-                <a href="#" style="text-decoration: none;" class="text-dark">
+                <a href="<?php the_guid(); ?>" style="text-decoration: none;" class="text-dark">
                   <h4 class="card-title text-center"><?php the_title(); ?></h4>
                   <?php if (has_excerpt()) { ?><p class="card-text"><?php the_excerpt(); ?></p><?php } ?>
                 </a>
