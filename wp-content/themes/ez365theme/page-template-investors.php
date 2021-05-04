@@ -47,7 +47,7 @@ if ($query->have_posts()) { ?>
     <div class="col-md-12 d-flex flex-column align-items-center text-center">
       <h3 class=""><b>Stock Information</b></h3>
       <div class="row">
-        <a href="https://finance.yahoo.com/quote/WCIG" target="_blank">Wee-Cig International Corporation (WCIG)</a>
+        <a href="https://www.otcmarkets.com/stock/wcig/profile" target="_blank">Wee-Cig International Corporation (WCIG)</a>
       </div>
     </div>
   </div>
