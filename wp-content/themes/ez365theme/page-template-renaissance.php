@@ -47,7 +47,7 @@
       </div>
 
       <div class="row pt-5 position-relative">
-        <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/mm.png" style="position: absolute;top: 0" />
+        <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/mm.png" style="position: absolute;top: 0;border: solid white 22px" />
       </div>
 
     </div>
@@ -108,7 +108,7 @@
                 <a target="_blank" href="http://linktr.ee/Nanuberks">linktr.ee/Nanuberks</a>
               </div>
               <div class="float-right ml-auto">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F00%2F64%2F67%2F63%2F240_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg&f=1&nofb=1" class="rounded-circle" alt="Nanu Berks picture" style="width:120px;height:120px;border:solid black 2px" />
+                <img src="<?php bloginfo('template_directory') ?>/images/nanu_berks.png" class="rounded-circle" alt="Nanu Berks picture" style="width:120px;height:120px;" />
               </div>
           </div>
           </div>
@@ -129,7 +129,7 @@
                 <a target="_blank" href="http://artstation.com/zerojs">artstation.com/zerojs</a>
               </div>
               <div class="float-right ml-auto">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F00%2F64%2F67%2F63%2F240_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg&f=1&nofb=1" class="rounded-circle" alt="James Suret picture" style="width:120px;height:120px;border:solid black 2px" />
+                <img src="<?php bloginfo('template_directory') ?>/images/james_suret.png" class="rounded-circle" alt="James Suret picture" style="width:120px;height:120px;" />
               </div>
           </div>
           </div>
@@ -148,7 +148,7 @@
                 <a target="_blank" href="http://linktr.ee/noealz">linktr.ee/noealz</a>
               </div>
               <div class="float-right ml-auto">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F00%2F64%2F67%2F63%2F240_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg&f=1&nofb=1" class="rounded-circle" alt="Noe Alonzo picture" style="width:120px;height:120px;border:solid black 2px" />
+                <img src="<?php bloginfo('template_directory') ?>/images/noe_alonzo.png" class="rounded-circle" alt="Noe Alonzo picture" style="width:120px;height:120px;" />
               </div>
           </div>
           </div>
@@ -167,7 +167,7 @@
                 <a target="_blank" href="http://monktalent.com/james-mulligan">monktalent.com/james-mulligan</a>
               </div>
               <div class="float-right ml-auto">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F00%2F64%2F67%2F63%2F240_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg&f=1&nofb=1" class="rounded-circle" alt="James Mulligan picture" style="width:120px;height:120px;border:solid black 2px" />
+                <img src="<?php bloginfo('template_directory') ?>/images/james_mulligan.png" class="rounded-circle" alt="James Mulligan picture" style="width:120px;height:120px;" />
               </div>
           </div>
           </div>
@@ -186,7 +186,7 @@
                 <a target="_blank" href="http://artforcrypto.com">artforcrypto.com</a>
               </div>
               <div class="float-right ml-auto">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F00%2F64%2F67%2F63%2F240_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg&f=1&nofb=1" class="rounded-circle" alt="Vesa Kivinen picture" style="width:120px;height:120px;border:solid black 2px" />
+                <img src="<?php bloginfo('template_directory') ?>/images/vesa_kivinen.png" class="rounded-circle" alt="Vesa Kivinen picture" style="width:120px;height:120px;" />
               </div>
           </div>
           </div>
@@ -220,13 +220,17 @@
         <div class="row">
           <div class="col-12 col-md-6 mt-3">
             <div class="bg-primary w-100 h-100 d-flex justify-content-center p-4 flex-column">
-              <div class="mx-auto icon" style="background-color: white; width: 100px; height: 100px;"></div>
+              <div class="mx-auto icon" style="width: 100px; height: 100px;">
+                <img src="<?php bloginfo('template_directory') ?>/images/icon_hands.png"  alt="hands icon" style="width:100%;height:100%;" />
+              </div>
               <p class="mb-0 mt-2 text-center">White-glove delivery by a specialized courier service, anywhere in the world, of the physical artwork – authenticated, appraised and with full documentation</p>
             </div>
           </div>
           <div class="col-12 col-md-6 mt-3">
             <div class="bg-primary w-100 h-100 d-flex justify-content-center p-4 flex-column">
-              <div class="mx-auto icon" style="background-color: white; width: 100px; height: 100px;"></div>
+              <div class="mx-auto icon" style="width: 100px; height: 100px;">
+                <img src="<?php bloginfo('template_directory') ?>/images/icon_lock.png"  alt="lock icon" style="width:100%;height:100%;" />
+              </div>
               <p class="mb-0 mt-2 text-center">The immediate, secure <br/>transfer of the digital <br/>NFT</p>
             </div>
           </div>
@@ -249,7 +253,7 @@
           <div class="form-group w-100">
             <!-- <label class="mb-0">Email *</label> -->
             <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="ne" required>
-            <input type="hidden" name="nl[]" value="1">
+            <input type="hidden" name="nl[]" value="3">
             <!-- <small class="form-text text-muted">*By signing up, you agree to receive updates and marketing emails from EZ365.</small> -->
           </div>
           <button type="submit" class="btn text-uppercase btn-light text-dark rounded-0 py-2 px-4">Get Notified</button>
