@@ -3925,6 +3925,16 @@ input[type='button'].btn-block {
 .nav-tabs .menu-item {
   margin-bottom: -1px;
 }
+.menu-item {
+  margin-bottom: -1px;
+  list-style-type: none;
+}
+.sub-menu {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+}
 .nav-tabs .nav-link,
 .nav-tabs .menu-item > a {
   border: 1px solid transparent;

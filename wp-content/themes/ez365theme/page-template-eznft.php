@@ -57,7 +57,10 @@
           <p class=" mb-0 text-white">A highly differentiated offering in the NFT space, our auctions will make incredible, curated art accessible to collectors and investors who want to participate in the exponential growth of the NFT market, without sacrificing the joy of owning a cherished physical art piece.</p>
         </div>
         <div class="col-md-6 my-4">
-          <p class=" mb-0 text-white">Coming soon! EZ365 will be hosting an exciting series of art auctions.</p>
+          <p class=" mb-0 text-white">Coming soon!</p>
+          <a href="/ren2" class="text-secondary"><p>Renaissance 2.0</p>
+            <img src="<?php bloginfo('template_directory') ?>/images/marylin.jpg" height="100px" aria-hidden="true" />
+          </a>
         </div>
       </div>
 
