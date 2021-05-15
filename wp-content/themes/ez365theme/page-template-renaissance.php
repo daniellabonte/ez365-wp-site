@@ -9,10 +9,10 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-4">
-        <p class="h4">EZNFT (a division of EZ365) is pleased to announce the first art project ever to bring the traditional and digital art worlds together.</p>
+        <p class="h4">EZ NFT (a division of EZ365) is pleased to announce the first art project ever to bring the traditional and digital art worlds together.</p>
       </div>
       <div class="col-md-8">
-        <p class="">Rooted in EZNFT’s passion for both digital assets and fine art, Renaissance 2.0 offers a once in a lifetime opportunity to acquire iconic physical art along with uniquely commissioned, one-of-a-kind NFTs. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
+        <p class="">Rooted in EZ NFT’s passion for both digital assets and fine art, Renaissance 2.0 offers a once in a lifetime opportunity to acquire iconic physical art along with uniquely commissioned, one-of-a-kind NFTs. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
       </div>
     </div>
   </div>
@@ -30,7 +30,7 @@
 
       <div class="row px-4 p-2 my-5 mx-1 justify-content-center" style="border: solid white 2px; background-color: #00000066">
         <div class="col-md-10 my-4">
-          <p class=" mb-0 text-white text-center">EZNFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction. And for the first time ever, we’re offering the opportunity to bid on and purchase iconic, physical art paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
+          <p class=" mb-0 text-white text-center">EZ NFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction. And for the first time ever, we’re offering the opportunity to bid on and purchase iconic, physical art paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
         </div>
       </div>
 
@@ -63,7 +63,7 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-md-9">
-        <p>Coming in June, EZ365/EZNFT/Renaissance 2.0 will be auctioning off one of five renowned original Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe.</p>
+        <p>Coming in June, EZ365/EZ NFT/Renaissance 2.0 will be auctioning off one of five renowned original Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe.</p>
         <p>A first-of-its kind offering, each physical art piece will be sold alongside a newly commissioned, 1/1 NFT reinterpretation by an esteemed modern-day artist. The lot will also include an Infinite Objects display, so collectors can admire and enjoy their digital art with the same reverence and passion they show their physical collections.<p>
         <p>Renaissance 2.0 is reimagining the possibilities of art. Don’t miss this incredible opportunity to bid on an iconic, physical piece of art, paired with a commissioned, one-of-a-kind NFT by a top artist.</p>
       </div>
@@ -77,7 +77,7 @@
       <div class="col-12 col-md-9">
         <h2 class="mb-0 stretch text-center mb-4" style="font-weight:900">What are the Andy Warhol <br/>Sunday B. Morning Editions?</h2>
         <p>Internationally renowned American artist, film director, and producer Andy Warhol (1928-1987) was a leading figure in the pop art movement. His works combine artistic expression, celebrity and advertising and a variety of media.</p>
-        <p>The prints up for auction by EZNFT, as part of the Renaissance 2.0 Genesis Collection, are known as Andy Warhol Sunday B. Morning Editions. They were created as a tribute to Marilyn Monroe with whom Warhol had a lifelong fascination.</p>
+        <p>The prints up for auction by EZ NFT, as part of the Renaissance 2.0 Genesis Collection, are known as Andy Warhol Sunday B. Morning Editions. They were created as a tribute to Marilyn Monroe with whom Warhol had a lifelong fascination.</p>
         <p class="mt-3">Additional background information about on the history of these editions can be found on the following websites: <br/><a target="_blank" href="https://ginaartonline.com">ginaartonline.com</a><span class="mx-1">|</span><a target="_blank" href="http://mistersnappy.co.uk">mistersnappy.co.uk</a></p>
       </div>
     </div>
@@ -93,7 +93,7 @@
           <h2 class="mb-0 stretch text-center mb-4" style="font-weight:900">Meet the Renaissance 2.0 <br/>Genesis Collection Artists:</h2>
           <p class="h5 text-center" style="font-weight: 900;">Any way you look at it, it’s all about the art.</p>
           <p class="h5 mb-4 text-center" style="font-weight: 900;">The right mix of artists in a well curated collection can <br/>make all the difference in the world.</p>
-          <p class="text-left">That’s why EZNFT is so thrilled to bring together this amazing collection of 5 artists. Spanning the globe from the US to South Korea, England and Finland, this distinguished group of artists have come together to put their prodigious talents towards a collective goal – partnering with EZNFT to bring the traditional and digital art worlds together in beautiful harmony.</p>
+          <p class="text-left">That’s why EZ NFT is so thrilled to bring together this amazing collection of 5 artists. Spanning the globe from the US to South Korea, England and Finland, this distinguished group of artists have come together to put their prodigious talents towards a collective goal – partnering with EZ NFT to bring the traditional and digital art worlds together in beautiful harmony.</p>
         </div>
       </div>
       <div class="row justigy-content-center">
