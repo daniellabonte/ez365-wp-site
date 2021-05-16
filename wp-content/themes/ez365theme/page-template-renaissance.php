@@ -40,9 +40,15 @@
 
       <div class="row mb-5">
         <div class="col-md-12 text-light text-center">
-          <p class="p-0 mx-5 mb-4">Embrace the new art paradigm, with Renaissance 2.0’s Genesis Series:</p>
-          <h2 class="mb-0 h1 text-white stretch" style="font-weight:900">The Marilyn Collection</h2>
-          <h3>Coming June 2021</h3>
+          <p class="p-0 mx-5 mb-3 h5">Embrace the new art paradigm, with Renaissance 2.0’s Genesis Series:</p>
+          <h2 class="mb-0 display-4 text-white stretch" style="font-weight:900">The Marilyn Collection</h2>
+          <h3 class="h2">Coming June 2021</h3>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-9">
+          <h2 class="h1 text-light text-center stretch mb-4" style="font-weight:900">Iconic physical art. Inspiring digital interpretations. Ideal investment opportunities.</h2>
         </div>
       </div>
 
@@ -56,14 +62,9 @@
 
 <div class="pt-5 my-5">
   <div class="container">
-    <div class="row pt-5 justify-content-center">
+    <div class="row justify-content-center pt-5">
       <div class="col-12 col-md-9">
-        <h2 class="h1 text-center stretch mb-4" style="font-weight:900">Iconic physical art. Inspiring digital interpretations. Ideal investment opportunities.</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-9">
-        <p>Coming in June, EZ365/EZ NFT/Renaissance 2.0 will be auctioning off one of five renowned original Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe.</p>
+        <p>Coming in June, EZ NFT will be auctioning off five renowned original Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe</p>
         <p>A first-of-its kind offering, each physical art piece will be sold alongside a newly commissioned, 1/1 NFT reinterpretation by an esteemed modern-day artist. The lot will also include an Infinite Objects display, so collectors can admire and enjoy their digital art with the same reverence and passion they show their physical collections.<p>
         <p>Renaissance 2.0 is reimagining the possibilities of art. Don’t miss this incredible opportunity to bid on an iconic, physical piece of art, paired with a commissioned, one-of-a-kind NFT by a top artist.</p>
       </div>
@@ -78,7 +79,7 @@
         <h2 class="mb-0 stretch text-center mb-4" style="font-weight:900">What are the Andy Warhol <br/>Sunday B. Morning Editions?</h2>
         <p>Internationally renowned American artist, film director, and producer Andy Warhol (1928-1987) was a leading figure in the pop art movement. His works combine artistic expression, celebrity and advertising and a variety of media.</p>
         <p>The prints up for auction by EZ NFT, as part of the Renaissance 2.0 Genesis Collection, are known as Andy Warhol Sunday B. Morning Editions. They were created as a tribute to Marilyn Monroe with whom Warhol had a lifelong fascination.</p>
-        <p class="mt-3">Additional background information about on the history of these editions can be found on the following websites: <br/><a target="_blank" href="https://ginaartonline.com">ginaartonline.com</a><span class="mx-1">|</span><a target="_blank" href="http://mistersnappy.co.uk">mistersnappy.co.uk</a></p>
+        <p class="mt-3">Additional background information about on the history of these editions can be found on the following websites: <br/><a target="_blank" href="https://ginaartonline.com/what-is-sunday-b-morning-and-what-is-the-connection-to-andy-warhol-art/">ginaartonline.com</a><span class="mx-1">|</span><a target="_blank" href="http://www.mistersnappy.co.uk/?p=73">mistersnappy.co.uk</a></p>
       </div>
     </div>
   </div>
@@ -163,7 +164,7 @@
           <div class="row">
             <div class="col-12 d-flex align-items-center">
               <div class="float-left">
-                <p class="h3" style="font-weight: 900;">James Mulligan</p>
+                <p class="h3" style="font-weight: 900;">James C. Mulligan</p>
                 <a target="_blank" href="http://monktalent.com/james-mulligan">monktalent.com/james-mulligan</a>
               </div>
               <div class="float-right ml-auto">
