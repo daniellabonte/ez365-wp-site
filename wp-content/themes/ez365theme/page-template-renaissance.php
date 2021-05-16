@@ -101,7 +101,7 @@
 
 
 <!-- ARTISTS START -->
-        <div class="col-12 col-md-6 mt-5 px-4">
+        <div class="col col-12 col-md-6 mt-5 px-4">
           <div class="row">
             <div class="col-12 d-flex align-items-center">
               <div class="float-left">
@@ -122,7 +122,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mt-5 px-4">
+        <div class="col col-12 col-md-6 mt-5 px-4">
           <div class="row">
             <div class="col-12 d-flex align-items-center">
               <div class="float-left">
@@ -141,7 +141,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mt-5 px-4">
+        <div class="col col-12 col-md-6 mt-5 px-4">
           <div class="row">
             <div class="col-12 d-flex align-items-center">
               <div class="float-left">
@@ -160,7 +160,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mt-5 px-4">
+        <div class="col col-12 col-md-6 mt-5 px-4">
           <div class="row">
             <div class="col-12 d-flex align-items-center">
               <div class="float-left">
@@ -179,7 +179,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-6 mt-5 px-4">
+        <div class="col col-12 col-md-6 mt-5 px-4">
           <div class="row">
             <div class="col-12 d-flex align-items-center">
               <div class="float-left">
