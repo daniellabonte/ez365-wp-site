@@ -97,7 +97,7 @@
           <p class="text-left">That’s why EZ NFT is so thrilled to bring together this amazing collection of 5 artists. Spanning the globe from the US to South Korea, England and Finland, this distinguished group of artists have come together to put their prodigious talents towards a collective goal – partnering with EZ NFT to bring the traditional and digital art worlds together in beautiful harmony.</p>
         </div>
       </div>
-      <div class="row justigy-content-center">
+      <div class="row justify-content-center">
 
 
 <!-- ARTISTS START -->
