@@ -1,0 +1,4 @@
+[12-May-2021 12:10:02 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Cropped_Image_Control' not found in /home/i0z2ji70rgvt/public_html/wp-includes/customize/class-wp-customize-site-icon-control.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/i0z2ji70rgvt/public_html/wp-includes/customize/class-wp-customize-site-icon-control.php on line 19
