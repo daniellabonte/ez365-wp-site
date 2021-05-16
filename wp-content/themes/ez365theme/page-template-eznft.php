@@ -58,7 +58,7 @@
         </div>
         <div class="col-md-6 my-4">
           <p class=" mb-0 text-white">Coming soon!</p>
-          <a href="/ren2" class="text-secondary"><p>Renaissance 2.0</p>
+          <a href="./ren2" class="text-secondary"><p>Renaissance 2.0</p>
             <img src="<?php bloginfo('template_directory') ?>/images/marylin.jpg" height="100px" aria-hidden="true" />
           </a>
         </div>
