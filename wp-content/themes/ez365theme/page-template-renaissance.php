@@ -23,14 +23,32 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
 &noscript=1"/>
 </noscript>
 
-<div class="my-5">
+<div class="py-5 bg-primary" style="margin-bottom: -4.5rem;">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <h3 class=""><b>Be the first to know about our NFT auction. Sign up for our newsletter today.</b></h3>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex flex-column align-items-center">
+        <form class="d-flex flex-column align-items-center w-100" method="post" action="/?na=s">
+          <div class="form-group w-100">
+            <!-- <label class="mb-0">Email *</label> -->
+            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="ne" required>
+            <input type="hidden" name="nl[]" value="3">
+            <!-- <small class="form-text text-muted">*By signing up, you agree to receive updates and marketing emails from EZ365.</small> -->
+          </div>
+          <button type="submit" class="btn text-uppercase btn-light text-dark rounded-0 py-2 px-4">Get Notified</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pt-5 my-5">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-4">
-        <p class="h4">EZ NFT (a division of EZ365) is pleased to announce the first art project ever to bring the traditional and digital art worlds together.</p>
-      </div>
-      <div class="col-md-8">
+      <div class="col-md-12">
+        <p class="h4">Bringing traditional and digital art worlds together</p>
         <p class="">Rooted in EZ NFT’s passion for both digital assets and fine art, Renaissance 2.0 offers a once in a lifetime opportunity to acquire iconic physical art along with uniquely commissioned, one-of-a-kind NFTs. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
+        <p>EZ NFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction. And for the first time ever, we’re offering the opportunity to bid on and purchase iconic, physical art paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
       </div>
     </div>
   </div>
@@ -46,21 +64,15 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
         </div>
       </div>
 
-      <div class="row px-4 p-2 my-5 mx-1 justify-content-center" style="border: solid white 2px; background-color: #00000066">
-        <div class="col-md-10 my-4">
-          <p class=" mb-0 text-white text-center">EZ NFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction. And for the first time ever, we’re offering the opportunity to bid on and purchase iconic, physical art paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
-        </div>
-      </div>
-
       <!-- <div class="row my-5 justify-content-center">
         <a href="#" class="btn btn-light mb-0 px-5 py-2 text-dark stretch text-uppercase">Get Started</a>
       </div> -->
 
       <div class="row mb-5">
         <div class="col-md-12 text-light text-center">
-          <p class="p-0 mx-5 mb-3 h5">Embrace the new art paradigm, with Renaissance 2.0’s Genesis Series:</p>
+          <p class="p-0 mx-5 mb-3 h5">Renaissance 2.0 Genesis Collection: Embrace the new art paradigm</p>
           <h2 class="mb-0 display-4 text-white stretch" style="font-weight:900">The Marilyn Collection</h2>
-          <h3 class="h2">Coming June 2021</h3>
+          <h3 class="h2">Dropping June 24, 2021</h3>
         </div>
       </div>
 
@@ -92,6 +104,30 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
         <p class="h5 text-center" style="font-weight:900">It’s time to bring the physical and digital artworlds together.<br/>Renaissance 2.0</p>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="py-5 bg-primary" style="margin-bottom: -4.5rem;">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <h3 class=""><b>Be the first in line for our NFT drop. Sign up for our newsletter today.</b></h3>
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex flex-column align-items-center">
+        <form class="d-flex flex-column align-items-center w-100" method="post" action="/?na=s">
+          <div class="form-group w-100">
+            <!-- <label class="mb-0">Email *</label> -->
+            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="ne" required>
+            <input type="hidden" name="nl[]" value="3">
+            <!-- <small class="form-text text-muted">*By signing up, you agree to receive updates and marketing emails from EZ365.</small> -->
+          </div>
+          <button type="submit" class="btn text-uppercase btn-secondary text-dark rounded-0 py-2 px-4">Get Notified</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="my-5">
+  <div class="container">
     <div class="row pt-5 justify-content-center">
       <div class="col-12 col-md-9">
         <h2 class="mb-0 stretch text-center mb-4" style="font-weight:900">What are the Andy Warhol <br/>Sunday B. Morning Editions?</h2>
@@ -242,7 +278,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
               <div class="mx-auto icon" style="width: 100px; height: 100px;">
                 <img src="<?php bloginfo('template_directory') ?>/images/icon_hands.png"  alt="hands icon" style="width:100%;height:100%;" />
               </div>
-              <p class="mb-0 mt-2 text-center">White-glove delivery by a specialized courier service, anywhere in the world, of the physical artwork – authenticated, appraised and with full documentation</p>
+              <p class="mb-0 mt-2 text-center">White-glove delivery of the physical artwork, by a specialized courier service, anywhere in the world.</p>
             </div>
           </div>
           <div class="col-12 col-md-6 mt-3">
