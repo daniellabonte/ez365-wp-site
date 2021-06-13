@@ -1416,7 +1416,7 @@ class NewsletterSubscription extends NewsletterModule {
         // All lists
         if ($name == 'lists' || $name == 'preferences') {
             $lists = $this->get_lists_for_subscription($language);
-            if (isset($attrs['layout']) && $attrs['layout'] === 'dropdown') {
+            if (!empty($lists) && isset($attrs['layout']) && $attrs['layout'] === 'dropdown') {
 
                 $buffer .= '<div class="tnp-field tnp-lists">';
                 // There is not a default "label" for the block of lists, so it can only be specified in the shortcode attrs as "label"

@@ -308,6 +308,10 @@ class NewsletterControls {
                         $time = gmmktime((int) $_REQUEST[$name . '_hour'], 0, 0, (int) $_REQUEST[$name . '_month'], (int) $_REQUEST[$name . '_day'], (int) $_REQUEST[$name . '_year']);
                         $time -= get_option('gmt_offset') * 3600;
                         $this->data[$name] = $time;
+                        continue;
+                    }
+                    if ($type === 'array') {
+                        if (!isset($this->data[$name])) $this->data[$name] = [];
                     }
                 }
             }
@@ -866,8 +870,8 @@ class NewsletterControls {
         if (!empty($attrs['data'])) {
             $onclick .= "this.form.btn.value='" . esc_attr(esc_js($attrs['data'])) . "';";
         }
-        if (!empty($attrs['confirm'])) {
-            if (is_string($attrs['confirm'])) {
+        if (isset($attrs['confirm'])) {
+            if (!empty($attrs['confirm'])) {
                 $onclick .= "if (!confirm('" . esc_attr(esc_js($attrs['confirm'])) . "')) return false;";
             } else {
                 $onclick .= "if (!confirm('" . esc_attr(esc_js(__('Proceed?', 'newsletter'))) . "')) return false;";
@@ -1159,14 +1163,19 @@ class NewsletterControls {
      * Creates a checkbox named $name and checked if the internal data contains under
      * the key $name an array containig the passed value.
      */
-    function checkbox_group($name, $value, $label = '') {
+    function checkbox_group($name, $value, $label = '', $attrs = []) {
+        $attrs = wp_parse_args($attrs, ['label_escape'=>true]);
         echo '<label><input type="checkbox" id="' . esc_attr($name) . '" name="options[' . esc_attr($name) . '][]" value="' . esc_attr($value) . '"';
         if (isset($this->data[$name]) && is_array($this->data[$name]) && array_search($value, $this->data[$name]) !== false) {
             echo ' checked';
         }
         echo '>';
         if ($label != '') {
-            echo esc_html($label);
+            if ($attrs['label_escape']) {
+                echo esc_html($label);
+            } else {
+                echo $label;
+            }
         }
         echo '</label>';
     }
@@ -1227,6 +1236,16 @@ class NewsletterControls {
         }
         echo '<div style="clear: both"></div>';
     }
+    
+    /** A list of all lists defined each one with a checkbox to select it. An array
+     * of ID of all checked lists is submitted.
+     * 
+     * @param string $name
+     */
+    function lists($name = 'lists') {
+        echo '<input type="hidden" name="tnp_fields[' . esc_attr($name) . ']" value="array">';
+        $this->preferences_group($name);
+    }
 
     function lists_checkboxes($name = 'lists') {
         $this->preferences_group($name);
@@ -1241,14 +1260,10 @@ class NewsletterControls {
 
         $lists = Newsletter::instance()->get_lists();
 
-        echo '<div class="newsletter-preferences-group">';
+        echo '<div class="tnpc-lists">';
         foreach ($lists as $list) {
-
-            echo '<div class="newsletter-preferences-item">';
-            $this->checkbox_group($name, $list->id, '(' . $list->id . ') ' . esc_html($list->name));
-            echo '</div>';
+            $this->checkbox_group($name, $list->id, '<span>' . $list->id . '</span> ' . esc_html($list->name), ['label_escape'=>false]);
         }
-        echo '<div style="clear: both"></div>';
         echo '<a href="https://www.thenewsletterplugin.com/documentation/newsletter-lists" target="_blank">'
         . 'Click here to read more about lists.'
         . '</a>';

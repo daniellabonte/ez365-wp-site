@@ -337,7 +337,8 @@ class NewsletterDefaultMailer extends NewsletterMailer {
             if (!empty($newsletter->options['content_transfer_encoding'])) {
                 $mailer->Encoding = $newsletter->options['content_transfer_encoding'];
             } else {
-                $mailer->Encoding = 'base64';
+                // Setting and encoding sometimes conflict with SMTP plugins
+                //$mailer->Encoding = 'base64';
             }
         }
 

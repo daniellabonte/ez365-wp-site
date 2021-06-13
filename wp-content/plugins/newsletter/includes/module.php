@@ -258,6 +258,19 @@ class TNP_Subscription_Data {
             $subscriber->$key = $value;
         }
     }
+    
+    /** Sets to active a set of lists. Accepts incorrect data (and ignores it).
+     * 
+     * @param array $list_ids Array of list IDs
+     */
+    function add_lists($list_ids) {
+        if (empty($list_ids) || !is_array($list_ids)) return;
+        foreach ($list_ids as $list_id) {
+            $list_id = (int)$list_id;
+            if ($list_id < 0 || $list_id > NEWSLETTER_LIST_MAX) continue;
+            $this->lists[$list_id] = 1;
+        }
+    }
 
 }
 
