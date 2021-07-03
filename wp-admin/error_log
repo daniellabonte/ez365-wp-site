@@ -1,0 +1,64 @@
+[03-Jul-2021 22:11:26 UTC] PHP Warning:  file_put_contents(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 302
+[03-Jul-2021 22:11:26 UTC] PHP Warning:  file_put_contents(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp_allow.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 335
+[03-Jul-2021 22:11:26 UTC] PHP Warning:  file_put_contents(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp_db_name_ez365.io.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 336
+[03-Jul-2021 22:11:26 UTC] PHP Warning:  include(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 337
+[03-Jul-2021 22:11:26 UTC] PHP Warning:  include(): Failed opening '/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 337
+[03-Jul-2021 22:11:26 UTC] PHP Warning:  Cookie names must not be empty in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/library_default_puvox.php on line 1717
+[03-Jul-2021 22:11:26 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/library_default_puvox.php on line 2163
+[03-Jul-2021 22:11:40 UTC] PHP Warning:  file_put_contents(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 302
+[03-Jul-2021 22:11:40 UTC] PHP Warning:  file_put_contents(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp_allow.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 335
+[03-Jul-2021 22:11:40 UTC] PHP Warning:  file_put_contents(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp_db_name_ez365.io.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 336
+[03-Jul-2021 22:11:40 UTC] PHP Warning:  include(/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp.php): failed to open stream: No such file or directory in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 337
+[03-Jul-2021 22:11:40 UTC] PHP Warning:  include(): Failed opening '/home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/lib/phpMyAdmin&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+_IQ3Dch6jeWYqGXzvlfKLZON
+=======
+_3TqwM6eGQ470Drdl9xsiZy5
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; f7de7d71a0b73fae73965227d1d1ecd3fd55a2e6
+/_session_temp.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/index.php on line 337
+[03-Jul-2021 22:11:40 UTC] PHP Warning:  Cookie names must not be empty in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/library_default_puvox.php on line 1717
+[03-Jul-2021 22:11:40 UTC] PHP Warning:  Header may not contain more than a single header, new line detected in /home/i0z2ji70rgvt/public_html/wp-content/plugins/wp-phpmyadmin-extension/library_default_puvox.php on line 2163
