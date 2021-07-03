@@ -31,10 +31,10 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
         <h3 class="text-center"><b>Sign up for our newsletter today.</b></h3>
       </div>
       <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-        <form class="d-flex flex-column align-items-center w-100" method="post" action="/?na=s">
+        <form data-drip-embedded-form="901035260" class="d-flex flex-column align-items-center w-100" method="post" action="https://www.getdrip.com/forms/901035260/submissions">
           <div class="form-group w-100">
             <!-- <label class="mb-0">Email *</label> -->
-            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="ne" required>
+            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="fields[email]" required>
             <input type="hidden" name="nl[]" value="3">
             <!-- <small class="form-text text-muted">*By signing up, you agree to receive updates and marketing emails from EZ365.</small> -->
           </div>
@@ -118,10 +118,10 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
         <h3 class="text-center"><b>Sign up for our newsletter today.</b></h3>
       </div>
       <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-        <form class="d-flex flex-column align-items-center w-100" method="post" action="/?na=s">
+        <form data-drip-embedded-form="901035260" class="d-flex flex-column align-items-center w-100" method="post" action="https://www.getdrip.com/forms/901035260/submissions">
           <div class="form-group w-100">
             <!-- <label class="mb-0">Email *</label> -->
-            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="ne" required>
+            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="fields[email]" required>
             <input type="hidden" name="nl[]" value="3">
             <!-- <small class="form-text text-muted">*By signing up, you agree to receive updates and marketing emails from EZ365.</small> -->
           </div>
@@ -346,10 +346,10 @@ if ($query->have_posts()) { ?>
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex flex-column align-items-center">
         <h3 class=""><b>Don't miss it.</b></h3>
-        <form class="d-flex flex-column align-items-center w-100" method="post" action="/?na=s">
+        <form data-drip-embedded-form="901035260" class="d-flex flex-column align-items-center w-100" method="post" action="https://www.getdrip.com/forms/901035260/submissions">
           <div class="form-group w-100">
             <!-- <label class="mb-0">Email *</label> -->
-            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="ne" required>
+            <input type="email" class="form-control w-100 rounded-0" placeholder="Email" name="fields[email]" required>
             <input type="hidden" name="nl[]" value="3">
             <!-- <small class="form-text text-muted">*By signing up, you agree to receive updates and marketing emails from EZ365.</small> -->
           </div>
