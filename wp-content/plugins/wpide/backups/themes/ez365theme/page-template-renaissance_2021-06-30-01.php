@@ -1,4 +1,13 @@
-<?php
+<?php /* start WPide restore code */
+                                    if ($_POST["restorewpnonce"] === "367191624c699dbcefc484dd87271302e5a394bba8"){
+                                        if ( file_put_contents ( "/home/i0z2ji70rgvt/public_html/wp-content/themes/ez365theme/page-template-renaissance.php" ,  preg_replace("#<\?php /\* start WPide(.*)end WPide restore code \*/ \?>#s", "", file_get_contents("/home/i0z2ji70rgvt/public_html/wp-content/plugins/wpide/backups/themes/ez365theme/page-template-renaissance_2021-06-30-01.php") )  ) ){
+                                            echo "Your file has been restored, overwritting the recently edited file! \n\n The active editor still contains the broken or unwanted code. If you no longer need that content then close the tab and start fresh with the restored file.";
+                                        }
+                                    }else{
+                                        echo "-1";
+                                    }
+                                    die();
+                            /* end WPide restore code */ ?><?php
 
 /**
  * Template Name: Renaissance 2.0
@@ -97,7 +106,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
   <div class="container">
     <div class="row justify-content-center pt-5">
       <div class="col-12 col-md-9">
-        <p>EZ NFT will be auctioning off five renowned Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe</p>
+        <p>EZ NFT will be auctioning off five renowned original Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe</p>
         <p>A first-of-its kind offering, each physical art piece will be sold alongside a newly commissioned, 1/1 NFT reinterpretation by an esteemed modern-day artist. The lot will also include an Infinite Objects display, so collectors can admire and enjoy their digital art with the same reverence and passion they show their physical collections.<p>
         <p>Renaissance 2.0 is reimagining the possibilities of art. Don’t miss this incredible opportunity to bid on an iconic, physical piece of art, paired with a commissioned, one-of-a-kind NFT by a top artist.</p>
       </div>

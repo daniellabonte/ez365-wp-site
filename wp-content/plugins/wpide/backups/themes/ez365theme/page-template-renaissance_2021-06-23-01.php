@@ -1,4 +1,13 @@
-<?php
+<?php /* start WPide restore code */
+                                    if ($_POST["restorewpnonce"] === "367191624c699dbcefc484dd8727130239007bcf52"){
+                                        if ( file_put_contents ( "/home/i0z2ji70rgvt/public_html/wp-content/themes/ez365theme/page-template-renaissance.php" ,  preg_replace("#<\?php /\* start WPide(.*)end WPide restore code \*/ \?>#s", "", file_get_contents("/home/i0z2ji70rgvt/public_html/wp-content/plugins/wpide/backups/themes/ez365theme/page-template-renaissance_2021-06-23-01.php") )  ) ){
+                                            echo "Your file has been restored, overwritting the recently edited file! \n\n The active editor still contains the broken or unwanted code. If you no longer need that content then close the tab and start fresh with the restored file.";
+                                        }
+                                    }else{
+                                        echo "-1";
+                                    }
+                                    die();
+                            /* end WPide restore code */ ?><?php
 
 /**
  * Template Name: Renaissance 2.0
@@ -75,7 +84,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
         <div class="col-md-12 text-light text-center">
           <p class="p-0 mx-5 mb-3 h5">Renaissance 2.0 Genesis Collection: Embrace the new art paradigm</p>
           <h2 class="mb-0 display-4 text-white stretch" style="font-weight:900">The Marilyn Collection</h2>
-          <h3 class="h2">Dropping July 10, 2021 - 10pm UTC</h3>
+          <!--<h3 class="h2">Dropping July 10, 2021</h3>-->
         </div>
       </div>
 
@@ -97,7 +106,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
   <div class="container">
     <div class="row justify-content-center pt-5">
       <div class="col-12 col-md-9">
-        <p>EZ NFT will be auctioning off five renowned Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe</p>
+        <p>EZ NFT will be auctioning off five renowned original Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe</p>
         <p>A first-of-its kind offering, each physical art piece will be sold alongside a newly commissioned, 1/1 NFT reinterpretation by an esteemed modern-day artist. The lot will also include an Infinite Objects display, so collectors can admire and enjoy their digital art with the same reverence and passion they show their physical collections.<p>
         <p>Renaissance 2.0 is reimagining the possibilities of art. Don’t miss this incredible opportunity to bid on an iconic, physical piece of art, paired with a commissioned, one-of-a-kind NFT by a top artist.</p>
       </div>
@@ -299,47 +308,11 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
       </div>
     </div>
 
-    <div class="row mt-5 d-flex justify-content-center">
+    <div class="row mt-5 d-flex justify-center">
       <p class="col-9 text-center">Note: The auction winner retains the right to split up the set by selling the physical artwork and keeping the NFT, or vice versa.</p>
     </div>
   </div>
 </div>
-
-<?php
-$args = array(
-  'numberposts' => 3,
-  'post_status' => 'publish',
-  'category_name' => 'ren2'
-);
-$query = new WP_Query($args);
-if ($query->have_posts()) { ?>
-  <div class="my-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <?php
-        while ($query->have_posts()) {
-          $query->the_post(); ?>
-          <div class="col-md-4">
-            <div class="card">
-              <a href="<?php the_guid(); ?>" style="text-decoration: none;" class="text-dark">
-                <img class="card-img-top" src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="Card image cap">
-              </a>
-              <div class="card-body bg-light d-flex flex-column align-items-center">
-                <a href="<?php the_guid(); ?>" style="text-decoration: none;" class="text-dark">
-                  <h4 class="card-title text-center"><?php the_title(); ?></h4>
-                  <?php if (has_excerpt()) { ?><p class="card-text"><?php the_excerpt(); ?></p><?php } ?>
-                </a>
-                <a class="btn btn-link" href="<?php the_guid(); ?>">Read more <i class="fa fa-arrow-right" style="font-size: 12px;" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-        <?php  }
-        wp_reset_postdata(); ?>
-      </div>
-    </div>
-  </div><?php
-      }
-        ?>
 
 <div class="mt-5 py-5 bg-primary" style="margin-bottom: -4.5rem;">
   <div class="container">
