@@ -2778,19 +2778,6 @@ CREATE TABLE `ez365_wp_phpmyadmin_extension__errors_log` (
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `ez365_wp_phpmyadmin_extension__errors_log`
---
-
-CREATE TABLE `ez365_wp_phpmyadmin_extension__errors_log` (
-  `id` int(50) NOT NULL,
-  `gmdate` datetime DEFAULT NULL,
-  `function_name` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
-  `function_args` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
-  `message` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `ez365_yoast_indexable`
