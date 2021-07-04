@@ -102,7 +102,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
       <div class="col-12 col-md-9">
         <p>EZ NFT has partnered with 5 incredible modern-day artists to generate 15 unique NFTs inspired by Andy Warhol’s Sunday B. Morning prints–depicting the world’s most timeless and glamorous movie star – Marilyn Monroe. Each NFT will be sold with an Infinite Objects Display.</p>
         <p>In celebration of our Renaissance 2.0 launch, five of these NFT works will be sold alongside the physical Warhol Sunday B. Morning print that served as the artist’s inspiration!  </p>
-        <p>A Warhol print will be sold with each of the following NFTs: </p>
+        <p>A print will be sold with each of the following NFTs: </p>
         <ul>
           <li>The Liberation, art by Vesa Kivinen</li>
           <li>Pink and the Blues, James C. Mulligan</li>
