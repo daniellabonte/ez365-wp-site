@@ -50,6 +50,9 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
     <div class="row justify-content-center">
       <div class="col-md-9">
         <p class="h4 text-center" style="font-weight: bold">Bringing traditional and digital art worlds together</p>
+        <div class="embed-responsive embed-responsive-16by9 mb-3">
+          <iframe src="https://www.youtube.com/embed/G84Ge7HoG_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <p>Rooted in EZ NFT’s passion for both digital assets and fine art, Renaissance 2.0 offers once in a lifetime opportunities to acquire iconic physical art pieces and uniquely commissioned, one-of-a-kind NFTs inspired by them. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
         <p>EZ NFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction.  And for the first time ever, we’re offering the opportunity to bid on and purchase several iconic, physical art pieces paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
       </div>
