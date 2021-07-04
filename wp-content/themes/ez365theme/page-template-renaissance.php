@@ -50,8 +50,8 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
     <div class="row justify-content-center">
       <div class="col-md-9">
         <p class="h4 text-center" style="font-weight: bold">Bringing traditional and digital art worlds together</p>
-        <p class="">Rooted in EZ NFT’s passion for both digital assets and fine art, Renaissance 2.0 offers a once in a lifetime opportunity to acquire iconic physical art along with uniquely commissioned, one-of-a-kind NFTs. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
-        <p>EZ NFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction. And for the first time ever, we’re offering the opportunity to bid on and purchase iconic, physical art paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
+        <p>Rooted in EZ NFT’s passion for both digital assets and fine art, Renaissance 2.0 offers once in a lifetime opportunities to acquire iconic physical art pieces and uniquely commissioned, one-of-a-kind NFTs inspired by them. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
+        <p>EZ NFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction.  And for the first time ever, we’re offering the opportunity to bid on and purchase several iconic, physical art pieces paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
       </div>
     </div>
   </div>
@@ -97,9 +97,17 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
   <div class="container">
     <div class="row justify-content-center pt-5">
       <div class="col-12 col-md-9">
-        <p>EZ NFT will be auctioning off five renowned Andy Warhol prints from his Sunday B. Morning editions, depicting the world’s most timeless and glamorous movie star – Marilyn Monroe</p>
-        <p>A first-of-its kind offering, each physical art piece will be sold alongside a newly commissioned, 1/1 NFT reinterpretation by an esteemed modern-day artist. The lot will also include an Infinite Objects display, so collectors can admire and enjoy their digital art with the same reverence and passion they show their physical collections.<p>
-        <p>Renaissance 2.0 is reimagining the possibilities of art. Don’t miss this incredible opportunity to bid on an iconic, physical piece of art, paired with a commissioned, one-of-a-kind NFT by a top artist.</p>
+        <p>EZ NFT has partnered with 5 incredible modern-day artists to generate 15 unique NFTs inspired by Andy Warhol’s Sunday B. Morning prints–depicting the world’s most timeless and glamorous movie star – Marilyn Monroe. Each NFT will be sold with an Infinite Objects Display.</p>
+        <p>In celebration of our Renaissance 2.0 launch, five of these NFT works will be sold alongside the physical Warhol Sunday B. Morning print that served as the artist’s inspiration!  </p>
+        <p>A Warhol print will be sold with each of the following NFTs: </p>
+        <ul>
+          <li>The Liberation, art by Vesa Kivinen</li>
+          <li>Pink and the Blues, James C. Mulligan</li>
+          <li>Eternal Marilyn, James Suret</li>
+          <li>On Display, Noe Alonzo</li>
+          <li>Full movie 1/1 Nanu Berks</li>
+        </ul>
+        <p>Renaissance 2.0 is reimagining the possibilities of art. Don’t miss this incredible opportunity to bid on incredible NFTs and iconic, physical art.</p>
       </div>
     </div>
     <div class="row pt-5 justify-content-center">
@@ -271,8 +279,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
     <div class="row pt-5 justify-content-center">
       <div class="col-12 col-md-9">
         <h2 class="h2 text-center stretch mb-4" style="font-weight:900">How Renaissance 2.0 Auctions Work:</h2>
-        <p class="text-center">Auctions will take place for 24 hours. <br/>When the auction concludes, the winning bidder will be announced.</p>
-        <p class="text-center"><b>The successful winning bid will receive both the physical, <br/>3’ x 3’ Andy Warhol print, as well as the digital NFT art via:</b></p>
+        <p class="text-center">When the auction concludes, the winning bidder will be announced.</p>
       </div>
     </div>
     
@@ -284,7 +291,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
               <div class="mx-auto icon" style="width: 100px; height: 100px;">
                 <img src="<?php bloginfo('template_directory') ?>/images/icon_hands.png"  alt="hands icon" style="width:100%;height:100%;" />
               </div>
-              <p class="mb-0 mt-2 text-center">White-glove delivery of the physical artwork, by a specialized courier service, anywhere in the world.</p>
+              <p class="mb-0 mt-2 text-center">For those receiving physical artwork, white-glove delivery service will be provided by a specialized courier, anywhere in the world.</p>
             </div>
           </div>
           <div class="col-12 col-md-6 mt-3">
