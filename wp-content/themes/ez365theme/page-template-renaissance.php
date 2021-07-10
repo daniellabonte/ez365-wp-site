@@ -63,6 +63,11 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
           <iframe src="https://www.youtube.com/embed/7tAGaTm4pMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
+      <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9 mb-3">
+          <iframe src="https://www.youtube.com/embed/Ssp_CZp7YVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-md-9">
