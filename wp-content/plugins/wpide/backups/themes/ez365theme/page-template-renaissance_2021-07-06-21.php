@@ -1,4 +1,13 @@
-<?php
+<?php /* start WPide restore code */
+                                    if ($_POST["restorewpnonce"] === "367191624c699dbcefc484dd872713025bcb01b8d2"){
+                                        if ( file_put_contents ( "/home/i0z2ji70rgvt/public_html/wp-content/themes/ez365theme/page-template-renaissance.php" ,  preg_replace("#<\?php /\* start WPide(.*)end WPide restore code \*/ \?>#s", "", file_get_contents("/home/i0z2ji70rgvt/public_html/wp-content/plugins/wpide/backups/themes/ez365theme/page-template-renaissance_2021-07-06-21.php") )  ) ){
+                                            echo "Your file has been restored, overwritting the recently edited file! \n\n The active editor still contains the broken or unwanted code. If you no longer need that content then close the tab and start fresh with the restored file.";
+                                        }
+                                    }else{
+                                        echo "-1";
+                                    }
+                                    die();
+                            /* end WPide restore code */ ?><?php
 
 /**
  * Template Name: Renaissance 2.0
@@ -112,7 +121,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
 
 <div class="pt-5 my-5">
   <div class="container pt-5">
-    <div class="row pt-3 justify-content-center">
+    <div class="row pt-5 justify-content-center">
       <div class="col-12 col-md-9">
         <p>EZ NFT has partnered with 5 incredible modern-day artists to generate 15 unique NFTs inspired by Andy Warhol’s Sunday B. Morning prints–depicting the world’s most timeless and glamorous movie star – Marilyn Monroe. Each NFT will be sold with an Infinite Objects Display.</p>
         <p>In celebration of our Renaissance 2.0 launch, five of these NFT works will be sold alongside the physical Warhol Sunday B. Morning print that served as the artist’s inspiration!  </p>

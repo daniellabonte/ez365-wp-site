@@ -1,4 +1,13 @@
-<?php
+<?php /* start WPide restore code */
+                                    if ($_POST["restorewpnonce"] === "367191624c699dbcefc484dd872713025bcb01b8d2"){
+                                        if ( file_put_contents ( "/home/i0z2ji70rgvt/public_html/wp-content/themes/ez365theme/page-template-renaissance.php" ,  preg_replace("#<\?php /\* start WPide(.*)end WPide restore code \*/ \?>#s", "", file_get_contents("/home/i0z2ji70rgvt/public_html/wp-content/plugins/wpide/backups/themes/ez365theme/page-template-renaissance_2021-07-06-17.php") )  ) ){
+                                            echo "Your file has been restored, overwritting the recently edited file! \n\n The active editor still contains the broken or unwanted code. If you no longer need that content then close the tab and start fresh with the restored file.";
+                                        }
+                                    }else{
+                                        echo "-1";
+                                    }
+                                    die();
+                            /* end WPide restore code */ ?><?php
 
 /**
  * Template Name: Renaissance 2.0
@@ -50,22 +59,12 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
     <div class="row justify-content-center">
       <div class="col-md-9">
         <p class="h4 text-center" style="font-weight: bold">Bringing traditional and digital art worlds together</p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
         <div class="embed-responsive embed-responsive-16by9 mb-3">
           <iframe src="https://www.youtube.com/embed/G84Ge7HoG_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-      </div>
-      <div class="col-md-6">
         <div class="embed-responsive embed-responsive-16by9 mb-3">
           <iframe src="https://www.youtube.com/embed/7tAGaTm4pMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-9">
         <p>Rooted in EZ NFT’s passion for both digital assets and fine art, Renaissance 2.0 offers once in a lifetime opportunities to acquire iconic physical art pieces and uniquely commissioned, one-of-a-kind NFTs inspired by them. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
         <p>EZ NFT is currently working closely with a group of exceptional artists to curate a truly remarkable portfolio of art for auction.  And for the first time ever, we’re offering the opportunity to bid on and purchase several iconic, physical art pieces paired with commissioned, one-of-a-kind digital NFT art – enabling you to participate in the exponential growth of the NFT market, while retaining the joy of owning cherished, physical art.</p>
       </div>
@@ -103,7 +102,7 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
       </div>
 
       <div class="row pt-5 position-relative">
-        <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/knownorigin_art.jpg" style="position: absolute;top: 0;border: solid white 22px" />
+        <img class="img-fluid d-block" src="<?php bloginfo('template_directory') ?>/images/mm.png" style="position: absolute;top: 0;border: solid white 22px" />
       </div>
 
     </div>
@@ -111,8 +110,8 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
 </div>
 
 <div class="pt-5 my-5">
-  <div class="container pt-5">
-    <div class="row pt-3 justify-content-center">
+  <div class="container pt-4">
+    <div class="row justify-content-center pt-5">
       <div class="col-12 col-md-9">
         <p>EZ NFT has partnered with 5 incredible modern-day artists to generate 15 unique NFTs inspired by Andy Warhol’s Sunday B. Morning prints–depicting the world’s most timeless and glamorous movie star – Marilyn Monroe. Each NFT will be sold with an Infinite Objects Display.</p>
         <p>In celebration of our Renaissance 2.0 launch, five of these NFT works will be sold alongside the physical Warhol Sunday B. Morning print that served as the artist’s inspiration!  </p>

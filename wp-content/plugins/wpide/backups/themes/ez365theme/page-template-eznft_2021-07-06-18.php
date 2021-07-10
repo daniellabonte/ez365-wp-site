@@ -1,4 +1,13 @@
-<?php
+<?php /* start WPide restore code */
+                                    if ($_POST["restorewpnonce"] === "367191624c699dbcefc484dd872713025bcb01b8d2"){
+                                        if ( file_put_contents ( "/home/i0z2ji70rgvt/public_html/wp-content/themes/ez365theme/page-template-eznft.php" ,  preg_replace("#<\?php /\* start WPide(.*)end WPide restore code \*/ \?>#s", "", file_get_contents("/home/i0z2ji70rgvt/public_html/wp-content/plugins/wpide/backups/themes/ez365theme/page-template-eznft_2021-07-06-18.php") )  ) ){
+                                            echo "Your file has been restored, overwritting the recently edited file! \n\n The active editor still contains the broken or unwanted code. If you no longer need that content then close the tab and start fresh with the restored file.";
+                                        }
+                                    }else{
+                                        echo "-1";
+                                    }
+                                    die();
+                            /* end WPide restore code */ ?><?php
 
 /**
  * Template Name: EZ NFT
@@ -60,7 +69,7 @@
           <a href="./ren2" class="text-secondary h4">Renaissance 2.0 Genesis Collection</a>
           <p class="text-light">The Marilyn Collection</p>
           <p class="text-light">Dropping July 10, 2021 - 10pm UTC </p>
-          <a href="https://knownorigin.io/ez-nft" target="_blank" class="text-secondary h4">
+          <a href="https://knownorigin.io/ez-nft" target="_blank" class="text-secondary">
             knownorigin.io/ez-nft
             <img src="<?php bloginfo('template_directory') ?>/images/knownorigin_art.jpg" height="100px" aria-hidden="true" class="mt-2"/>
           </a>
