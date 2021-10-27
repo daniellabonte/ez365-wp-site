@@ -9068,7 +9068,8 @@ body > * {
 }
 
 /* Animate state between .navbar and .navbar-ontop */
-.navbar {
+.navbar,
+.dropdown-menu {
   transition: background-color 0.5s ease-out;
 }
 
