@@ -59,11 +59,11 @@
         <div class="col-md-6 my-4">
           <a href="./ren2" class="text-secondary h4">Renaissance 2.0 Genesis Collection</a>
           <p class="text-light">The Marilyn Collection</p>
-          <p class="text-light">Dropping July 10, 2021 - 10pm UTC </p>
-          <a href="https://knownorigin.io/ez-nft" target="_blank" class="text-secondary h4">
-            knownorigin.io/ez-nft
+          <!--<p class="text-light">Dropping July 10, 2021 - 10pm UTC </p>-->
+          <!--<a href="https://knownorigin.io/ez-nft" target="_blank" class="text-secondary h4">-->
+            <!--knownorigin.io/ez-nft-->
             <img src="<?php bloginfo('template_directory') ?>/images/knownorigin_art.jpg" height="100px" aria-hidden="true" class="mt-2"/>
-          </a>
+          <!--</a>-->
         </div>
       </div>
 

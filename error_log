@@ -17,3 +17,7 @@ Stack trace:
 [10-May-2021 16:07:33 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/i0z2ji70rgvt/public_html/wp-content/plugins/newsletter/includes/module.php on line 2179
 [10-May-2021 16:07:33 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/i0z2ji70rgvt/public_html/wp-content/plugins/newsletter/includes/module.php on line 2179
 [10-May-2021 16:07:34 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/i0z2ji70rgvt/public_html/wp-content/plugins/newsletter/includes/module.php on line 2179
+[16-Aug-2021 07:07:25 UTC] PHP Warning:  A non-numeric value encountered in /home/i0z2ji70rgvt/public_html/wp-content/plugins/newsletter/includes/module.php on line 2155
+[16-Aug-2021 07:07:36 UTC] PHP Warning:  A non-numeric value encountered in /home/i0z2ji70rgvt/public_html/wp-content/plugins/newsletter/includes/module.php on line 2155
+[16-Aug-2021 07:07:51 UTC] PHP Warning:  A non-numeric value encountered in /home/i0z2ji70rgvt/public_html/wp-content/plugins/newsletter/includes/module.php on line 2155
+[16-Aug-2021 07:08:01 UTC] PHP Warning:  A non-numeric value encountered in /home/i0z2ji70rgvt/public_html/wp-content/plugins/newsletter/includes/module.php on line 2155

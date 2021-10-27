@@ -52,23 +52,23 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
         <p class="h4 text-center" style="font-weight: bold">Bringing traditional and digital art worlds together</p>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="embed-responsive embed-responsive-16by9 mb-3">
-          <iframe src="https://www.youtube.com/embed/G84Ge7HoG_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="embed-responsive embed-responsive-16by9 mb-3">
-          <iframe src="https://www.youtube.com/embed/7tAGaTm4pMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="embed-responsive embed-responsive-16by9 mb-3">
-          <iframe src="https://www.youtube.com/embed/Ssp_CZp7YVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+    <!--<div class="row justify-content-center">-->
+    <!--  <div class="col-md-6">-->
+    <!--    <div class="embed-responsive embed-responsive-16by9 mb-3">-->
+    <!--      <iframe src="https://www.youtube.com/embed/G84Ge7HoG_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--  <div class="col-md-6">-->
+    <!--    <div class="embed-responsive embed-responsive-16by9 mb-3">-->
+    <!--      <iframe src="https://www.youtube.com/embed/7tAGaTm4pMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--  <div class="col-md-6">-->
+    <!--    <div class="embed-responsive embed-responsive-16by9 mb-3">-->
+    <!--      <iframe src="https://www.youtube.com/embed/Ssp_CZp7YVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</div>-->
     <div class="row justify-content-center">
       <div class="col-md-9">
         <p>Rooted in EZ NFT’s passion for both digital assets and fine art, Renaissance 2.0 offers once in a lifetime opportunities to acquire iconic physical art pieces and uniquely commissioned, one-of-a-kind NFTs inspired by them. With physical and digital artwork carefully curated to complement each other, we’re bridging the gap between the traditional art world and the world of NFTs. It’s a new renaissance, for the digital age.</p>
@@ -96,8 +96,8 @@ src="https://www.facebook.com/tr?id=193596025976113&ev=PageView
         <div class="col-md-12 text-light text-center">
           <p class="p-0 mx-5 mb-3 h5">Renaissance 2.0 Genesis Collection: Embrace the new art paradigm</p>
           <h2 class="mb-0 display-4 text-white stretch" style="font-weight:900">The Marilyn Collection</h2>
-          <h3 class="h2">Dropping July 10, 2021 - 10pm UTC</h3>
-          <h3 class="h2"><a href="https://knownorigin.io/ez-nft" target="_blank" class="text-secondary">knownorigin.io/ez-nft</a></h3>
+          <!--<h3 class="h2">Dropping July 10, 2021 - 10pm UTC</h3>-->
+          <!--<h3 class="h2"><a href="https://knownorigin.io/ez-nft" target="_blank" class="text-secondary">knownorigin.io/ez-nft</a></h3>-->
         </div>
       </div>
 

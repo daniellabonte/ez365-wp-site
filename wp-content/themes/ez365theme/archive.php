@@ -2,7 +2,7 @@
 <div class="container" style="padding-bottom: 81px;" aria-hidden="true"><!-- no content under the navbar --></div>
 <div class="container text-center mx-auto">
 
-  <h1><?php echo single_cat_title(); ?></h1>
+  <h1 style="margin-top: 80px;margin-bottom: 70px;"><?php single_cat_title(); ?></h1>
   
   <?php get_template_part('includes/section','archive'); ?>
 

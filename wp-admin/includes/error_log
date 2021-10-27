@@ -1,0 +1,4 @@
+[18-Aug-2021 03:29:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home/i0z2ji70rgvt/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/i0z2ji70rgvt/public_html/wp-admin/includes/admin.php on line 16
