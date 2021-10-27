@@ -3,7 +3,7 @@
   function load_stylesheets() {
     wp_register_style('fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), 1, 'all');
     wp_enqueue_style('fontawesome');
-    wp_register_style('ezcss', get_template_directory_uri() . '/css/ez.css', array(), 1, 'all');
+    wp_register_style('ezcss', get_template_directory_uri() . '/css/ez2.css', array(), 1, 'all');
     wp_enqueue_style('ezcss');
   }
   add_action('wp_enqueue_scripts', 'load_stylesheets');
@@ -21,7 +21,7 @@
     wp_enqueue_script('popper');
     wp_register_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', array(), 1, 1, 1);
     wp_enqueue_script('bootstrap');
-    wp_register_script('ezjs', get_template_directory_uri() . '/ez.js', array(), 1, 1, 1);
+    wp_register_script('ezjs', get_template_directory_uri() . '/js/ez.js', array(), 1, 1, 1);
     wp_enqueue_script('ezjs');
   }
   add_action('wp_enqueue_scripts', 'addjs');
@@ -34,4 +34,7 @@
       'socialmediaicons' => 'Social Media Icons'
     )
   );
+
+  // Register custom navigation walker
+	require_once('wp_bootstrap_navwalker.php');
 ?>

@@ -28,11 +28,15 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center justify-content-end" id="navcollapse">
-          <?php
-          wp_nav_menu(array(
-            'theme_location' => 'mainnav',
-            'menu_class' => ' top-menu navbar-nav uppercase text-uppercase'
-          ));
+          <?php /* Primary navigation */ 
+            wp_nav_menu( array(
+              'theme_location' => 'mainnav',
+              'menu' => 'mainnav',
+              'depth' => 3,
+              'container' => false,
+              'menu_class' => 'top-menu navbar-nav uppercase text-uppercase',
+              'walker' => new wp_bootstrap_navwalker())
+            );
           ?>
           <a class="btn navbar-btn text-white mx-2 rounded-0 border-light border text-uppercase py-2 px-3" href="https://ezexchangehelp.zendesk.com/hc/en-us/requests/new"> Contact Us </a>
         </div>
@@ -51,4 +55,10 @@
         </div>
       </div>
   </header>
+  <?php
+          wp_nav_menu(array(
+            'theme_location' => 'mainnav',
+            'menu_class' => ' top-menu navbar-nav uppercase text-uppercase'
+          ));
+          ?>
 <?php } ?>

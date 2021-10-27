@@ -3043,22 +3043,23 @@ input[type='button'].btn-block {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: -50%;
   z-index: 1000;
   display: none;
   float: left;
   min-width: 10rem;
   padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
+  margin: 0;
+  margin-top: -0.25rem;
   font-size: 1rem;
   color: #1f1f1f;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #222b3f;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+  /* border-radius: 0.25rem; */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.07);
 }
 
 .dropdown-menu-right {
@@ -3181,7 +3182,7 @@ input[type='button'].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: rgba(255, 255, 255, 0.5);
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3189,9 +3190,9 @@ input[type='button'].btn-block {
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #16181b;
+  color: rgba(255, 255, 255, 0.75);
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #222b3f;
 }
 .dropdown-item.active,
 .dropdown-item:active {
@@ -4044,8 +4045,9 @@ input[type='button'].btn-block {
 }
 .navbar-nav .nav-link,
 .navbar-nav .menu-item > a {
-  padding-right: 0;
-  padding-left: 0;
+  text-align: center;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -4355,7 +4357,18 @@ input[type='button'].btn-block {
 .navbar-dark .navbar-nav .active > .menu-item > a,
 .navbar-dark .navbar-nav .menu-item > a.show,
 .navbar-dark .navbar-nav .menu-item > a.active {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link:hover,
+.navbar-dark .navbar-nav .active > .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.show:hover,
+.navbar-dark .navbar-nav .nav-link.active:hover,
+.navbar-dark .navbar-nav .show > .menu-item > a:hover,
+.navbar-dark .navbar-nav .active > .menu-item > a:hover,
+.navbar-dark .navbar-nav .menu-item > a.show:hover,
+.navbar-dark .navbar-nav .menu-item > a.active:hover {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .navbar-dark .navbar-toggler {
@@ -9062,6 +9075,12 @@ body > * {
 @media (min-width: 992px) {
   .navbar-ontop {
     background-color: transparent !important;
+  }
+  .navbar-ontop .dropdown-menu {
+    background-color: transparent;
+  }
+  .navbar-ontop .dropdown-item {
+    background-color: transparent;
   }
 }
 
