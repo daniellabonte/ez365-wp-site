@@ -55,10 +55,4 @@
         </div>
       </div>
   </header>
-  <?php
-          wp_nav_menu(array(
-            'theme_location' => 'mainnav',
-            'menu_class' => ' top-menu navbar-nav uppercase text-uppercase'
-          ));
-          ?>
 <?php } ?>
